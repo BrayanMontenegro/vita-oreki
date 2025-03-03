@@ -1,4 +1,4 @@
-import { useState, Text } from 'react'
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -21,7 +21,6 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <Text>Hola</Text>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
